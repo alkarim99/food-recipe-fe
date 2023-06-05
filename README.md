@@ -1,8 +1,8 @@
 # Food Recipe Front-End
 
-<img src="./img/Food Recipe - 1.png" width="128"/>
-<img src="./img/Food Recipe - 2.png" width="128"/>
-<img src="./img/Food Recipe - 3.png" width="128"/>
+<img src="./img/Food Recipe - 1.png" width="540"/>
+<img src="./img/Food Recipe - 2.png" width="540"/>
+<img src="./img/Food Recipe - 3.png" width="540"/>
 
 Frontend for Food Recipe built with Bootstrap 5.
 
