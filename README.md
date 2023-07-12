@@ -26,19 +26,19 @@ Food Recipe Front-End able to run on your local, download this repo and open it 
 
 ## Screenshot
 
-1. Landing Page
+1. Landing Page <br>
    <img src="./screenshots/1-Landing-Page.png" width="540"/>
    <img src="./screenshots/2-Landing-Page.png" width="540"/>
    <img src="./screenshots/3-Landing-Page.png" width="540"/>
    <img src="./screenshots/4-Landing-Page.png" width="540"/>
-2. Add Recipe Page
+2. Add Recipe Page <br>
    <img src="./screenshots/5-Add-Recipe-Page.png" width="540"/>
-3. Detail Recipe Page
+3. Detail Recipe Page <br>
    <img src="./screenshots/7-Detail-Recipe-Page.png" width="540"/>
    <img src="./screenshots/8-Detail-Recipe-Page.png" width="540"/>
-4. Profile Page
+4. Profile Page <br>
    <img src="./screenshots/6-Profile-Page.png" width="540"/>
-5. Login Page
+5. Login Page <br>
    <img src="./screenshots/9-Login-Page.png" width="540"/>
-6. Register Page
+6. Register Page <br>
    <img src="./screenshots/10-Register-Page.png" width="540"/>
