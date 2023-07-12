@@ -1,9 +1,5 @@
 # Food Recipe Front-End
 
-<img src="./img/Food Recipe - 1.png" width="540"/>
-<img src="./img/Food Recipe - 2.png" width="540"/>
-<img src="./img/Food Recipe - 3.png" width="540"/>
-
 Frontend for Food Recipe built with Bootstrap 5.
 
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
@@ -27,3 +23,22 @@ And of course Food Recipe Front-End itself is open source with a [public reposit
 ## Installation
 
 Food Recipe Front-End able to run on your local, download this repo and open it using visual studio code, and run the live server.
+
+## Screenshot
+
+1. Landing Page
+   <img src="./screenshots/1-Landing-Page.png" width="540"/>
+   <img src="./screenshots/2-Landing-Page.png" width="540"/>
+   <img src="./screenshots/3-Landing-Page.png" width="540"/>
+   <img src="./screenshots/4-Landing-Page.png" width="540"/>
+2. Add Recipe Page
+   <img src="./screenshots/5-Add-Recipe-Page.png" width="540"/>
+3. Detail Recipe Page
+   <img src="./screenshots/7-Detail-Recipe-Page.png" width="540"/>
+   <img src="./screenshots/8-Detail-Recipe-Page.png" width="540"/>
+4. Profile Page
+   <img src="./screenshots/6-Profile-Page.png" width="540"/>
+5. Login Page
+   <img src="./screenshots/9-Login-Page.png" width="540"/>
+6. Register Page
+   <img src="./screenshots/10-Register-Page.png" width="540"/>
