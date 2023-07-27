@@ -65,7 +65,7 @@
     </nav>
 
     <div class="container py-5 mb-5 animate__animated animate__zoomIn">
-      <form action="#" method="post">
+      <form>
         <div class="row py-3 justify-content-md-center">
           <div class="col-md-7 d-grid">
             <input class="form-control mb-3" type="file" id="formFile" />
@@ -97,6 +97,8 @@ Ingredients :</textarea
                 type="button"
                 class="btn"
                 style="background-color: #efc81a; color: #fff"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal"
               >
                 Send
               </button>
@@ -106,18 +108,53 @@ Ingredients :</textarea
       </form>
     </div>
 
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Sorry</h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            Sorry this feature is not available right now
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <footer
       style="height: 60vh; background-color: #efc81a; color: #2e266f"
       class="d-flex flex-column justify-content-center align-items-center animate__animated animate__fadeIn"
     >
       <h1 class="fs-1" style="text-align: center">Eat, Cook, Repeat</h1>
       <p class="fs-6">Share your best recipe by uploading here!</p>
-      <ul class="navbar-nav d-flex flex-md-row gap-md-4 fs-6 text-center">
+      <!-- <ul class="navbar-nav d-flex flex-md-row gap-md-4 fs-6 text-center">
         <li class="nav-item"><a class="nav-link" href="">Product</a></li>
         <li class="nav-item"><a class="nav-link" href="">Company</a></li>
         <li class="nav-item"><a class="nav-link" href="">Learn More</a></li>
         <li class="nav-item"><a class="nav-link" href="">Get In Touch</a></li>
-      </ul>
+      </ul> -->
       <p class="mt-3">
         Made by
         <a

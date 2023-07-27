@@ -1,74 +1,80 @@
 .right-layer {
-    padding: 0;
-    margin: 0;
-    width: 20vw;
-    height: 100vh;
-    background-color: #EFC81A;
-    position: absolute;
-    right: 0;
-    top: 0;
-    z-index: -999;
+  padding: 0;
+  margin: 0;
+  width: 20vw;
+  height: 100vh;
+  background-color: #efc81a;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -999;
 }
 
 .left-layer {
-    padding: 0;
-    margin: 0;
-    width: 30vw;
-    height: 80vh;
-    background-color: #EFC81A;
-    position: absolute;
-    left: -200px;
-    top: 125px;
-    z-index: -998;
+  padding: 0;
+  margin: 0;
+  width: 30vw;
+  height: 80vh;
+  background-color: #efc81a;
+  position: absolute;
+  left: -200px;
+  top: 125px;
+  z-index: -998;
 }
 
 .vr {
-    width: 15px;
-    background-color: #efc81a; 
-    opacity: 100%;
+  width: 15px;
+  background-color: #efc81a;
+  opacity: 100%;
 }
 
 hr {
-    width: 25%;
+  width: 25%;
 }
 
 .img-popular-recipe {
-    width: 25vw;
-    height: 50vh;
-    background-size: cover;
-    background-position: center;
-    border-radius: 10px;
+  width: 25vw;
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
 }
 
 .img-popular-recipe p {
-    width: 53%;
-    font-size: 100%;
+  width: 53%;
+  font-size: 100%;
 }
 
 @media only screen and (max-width: 768px) {
-    .right-layer{
-        width: 100vw;
-    }
+  nav .collapse {
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+  }
 
-    .left-layer{
-        bottom: 0;
-        left: 0;
-    }
+  .right-layer {
+    width: 100vw;
+  }
 
-    hr {
-        width: 100%;
-    }
+  .left-layer {
+    bottom: 0;
+    left: 0;
+  }
 
-    .container-popular-recipe{
-        padding: 10px;
-    }
+  hr {
+    width: 100%;
+  }
 
-    .img-popular-recipe{
-        width: 45vw;
-        height: 25vh;
-    }
+  .container-popular-recipe {
+    padding: 10px;
+  }
 
-    .img-popular-recipe p {
-        font-size: 2%;
-    }
+  .img-popular-recipe {
+    width: 45vw;
+    height: 25vh;
+  }
+
+  .img-popular-recipe p {
+    font-size: 2%;
+  }
 }

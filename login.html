@@ -40,7 +40,7 @@
         >
           <div class="col col-md-8">
             <hr />
-            <form action="#" method="post">
+            <form>
               <div class="mb-3">
                 <label for="email" class="form-label">E-mail</label>
                 <input
@@ -51,7 +51,7 @@
                   placeholder="E-mail"
                 />
               </div>
-              <div class="mb-3">
+              <div class="mb-4">
                 <label for="password" class="form-label">Password</label>
                 <input
                   type="password"
@@ -61,7 +61,7 @@
                   placeholder="Password"
                 />
               </div>
-              <div class="mb-3 form-check">
+              <!-- <div class="mb-3 form-check">
                 <input
                   type="checkbox"
                   class="form-check-input"
@@ -71,12 +71,14 @@
                 <label class="form-check-label" for="termsConditions"
                   >I agree to terms & conditions</label
                 >
-              </div>
+              </div> -->
               <div class="d-grid">
                 <button
-                  type="submit"
+                  type="button"
                   class="btn"
                   style="background-color: #efc81a; color: white"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
                 >
                   Log in
                 </button>
@@ -102,6 +104,42 @@
         </p>
       </div>
     </div>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Sorry</h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            Sorry this feature is not available right now
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
       integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
